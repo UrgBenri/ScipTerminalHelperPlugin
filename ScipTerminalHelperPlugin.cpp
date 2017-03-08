@@ -77,7 +77,6 @@ ScipTerminalHelperPlugin::ScipTerminalHelperPlugin(QWidget* parent)
 
 ScipTerminalHelperPlugin::~ScipTerminalHelperPlugin(void)
 {
-    qDebug() << "ScipTerminalHelperPlugin::~ScipTerminalHelperPlugin";
 }
 
 void ScipTerminalHelperPlugin::saveState(QSettings &settings)
